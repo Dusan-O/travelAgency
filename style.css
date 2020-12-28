@@ -1,0 +1,74 @@
+/* General */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.wrapper
+{
+    widht: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+
+
+/* Header */
+header
+{
+    height: 120px;
+    margin-top: 32px;
+}
+
+header h1
+{
+    float: left;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #444;
+}
+
+.orange_dot
+{
+    color: #Ff7a00;
+}
+
+header nav ul li
+{
+    float: left;
+    display: inline-block;
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
