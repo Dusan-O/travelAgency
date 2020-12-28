@@ -47,7 +47,10 @@ p
     color:#777;
 }
 
-
+.clear
+{
+    clear: both;
+}
 /* Header */
 header
 {
@@ -76,6 +79,12 @@ h1
 .orange_dot
 {
     color: #Ff7a00;
+}
+
+.small
+{
+    font-size: 13px;
+    font-style: italic; 
 }
 
 header nav ul li
@@ -123,7 +132,7 @@ header nav ul li a
 
 .button1:hover
 {
-    color: #02b8dd;
+    background: #02b8dd;
 }
 
 .voyage
@@ -172,4 +181,76 @@ header nav ul li a
 {
     background: url('pics/steps-icon-3.png') no-repeat top center;
 
+}
+
+/* Possibilities */
+
+.article1
+{
+    background: url('pics/article-image-1.jpg');
+}
+
+
+.article2
+{
+    background: url('pics/article-image-2.jpg');
+}
+
+#possibilities
+{
+    background: #efefef;
+    padding: 60px 0;
+}
+
+#possibilities article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+
+.overlay
+{
+    background: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4
+{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#possibilities .small
+{ 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button2
+{
+    color: #fff;
+    background-color: #Ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.button2:hover
+{
+    color: #fff;
+    background-color: #02b8dd;
 }
